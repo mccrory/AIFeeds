@@ -28,7 +28,7 @@ def articlelist_html(articles)
   # order, desc
   articles.sort!{|x,y| get_article_time(y[:article])<=>get_article_time(x[:article])}
   # generate html
-  title = "AIFeed: List of Recent Articles"
+  title = "AIFeed: View of Recent Articles"
   b = "<html>\n"
   b << "<head>"
   b << "<meta http-equiv='charset' content='text/html;charset=UTF-8' />\n"  
@@ -75,7 +75,7 @@ if __FILE__ == $0
   # generate html
   html = articlelist_html(articles)
   # write
-  filename = "articlelist.html"
+  filename = "articleview.html"
   File.open(filename, 'w') {|f| f.write(html)}
   puts "Successfully wrote recent articles to #{filename}"
 end
