@@ -86,6 +86,13 @@ def get_title(feed)
   return title
 end
 
+def get_article_time(article)
+  date = article.last_updated
+  date = article.date_published if date.nil?
+  return date
+end
+
+
 if __FILE__ == $0
   # parse feed
   url = "http://www.damienfrancois.be/blog/atom.xml"
