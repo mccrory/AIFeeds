@@ -2,7 +2,7 @@ require 'parserss'
 
 def feedsource_html(source, feed)
   b = ""
-  b << "<a href='#{feed.url}'>#{feed.title}</a>"
+  b << "<a href='#{feed.url}'>#{get_title(feed)}</a>"
   b << "&nbsp;"
   b << "(<a href='#{source}'>rss</a>)"
   return b
