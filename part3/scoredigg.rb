@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 
 def digg_details_for_url(address)
   url = "http://widgets.digg.com/buttons/count?url=#{address}"

@@ -1,7 +1,8 @@
 require 'date'
 
-require '../part1/parserss'
-require 'scoreurl'
+# hack so we can use these functions from elsewhere
+require File.expand_path(File.dirname(__FILE__)) +'/../part1/parserss'
+require File.expand_path(File.dirname(__FILE__)) + '/scoreurl'
 
 
 def article_html(source, feed, article)

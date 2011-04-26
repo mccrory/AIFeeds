@@ -1,13 +1,13 @@
 require 'thread'
 
-require 'scoredelicious'
-require 'scoredigg'
-require 'scorefacebook'
-require 'scoregoogle'
-require 'scoregooglebuzz'
-require 'scorereddit'
-require 'scorestumbleupon'
-require 'scoretwitter'
+require File.expand_path(File.dirname(__FILE__)) + '/scoredelicious'
+require File.expand_path(File.dirname(__FILE__)) + '/scoredigg'
+require File.expand_path(File.dirname(__FILE__)) + '/scorefacebook'
+require File.expand_path(File.dirname(__FILE__)) + '/scoregoogle'
+require File.expand_path(File.dirname(__FILE__)) + '/scoregooglebuzz'
+require File.expand_path(File.dirname(__FILE__)) + '/scorereddit'
+require File.expand_path(File.dirname(__FILE__)) + '/scorestumbleupon'
+require File.expand_path(File.dirname(__FILE__)) + '/scoretwitter'
 
 SOURCES = 7
 WAIT = 1

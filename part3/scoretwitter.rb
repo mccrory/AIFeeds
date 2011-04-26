@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 
 def twitter_count_for_url(address)
   url = "http://urls.api.twitter.com/1/urls/count.json?url=#{address}"

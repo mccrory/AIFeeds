@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 
 def reddit_count_for_url(address)
   url = "http://www.reddit.com/api/info.json?url=#{address}"  

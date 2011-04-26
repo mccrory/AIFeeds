@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 
 def facebook_count_for_url(address)
   url = "http://api.ak.facebook.com/restserver.php?v=1.0&method=links.getStats&format=json&urls=#{address}"

@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 
 def stumbleupon_count_for_url(address)
   url = "http://www.stumbleupon.com/services/1.01/badge.getinfo?url=#{address}"

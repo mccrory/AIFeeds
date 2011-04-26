@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 require 'digest/md5'
 
 def delicious_count_for_url(address)

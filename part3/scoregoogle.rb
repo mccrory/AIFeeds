@@ -1,4 +1,4 @@
-require 'parsejson'
+require File.expand_path(File.dirname(__FILE__)) + '/parsejson'
 
 def google_count_for_url(address)
   url = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=#{address}&rsz=small"
