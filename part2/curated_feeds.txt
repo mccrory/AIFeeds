@@ -7,9 +7,7 @@ http://11011110.livejournal.com/data/atom
 http://www.programming4scientists.com/feed/
 http://blogs.msdn.com/jamiemac/rss.xml
 http://feeds.feedburner.com/dataminingblog
-http://blojj.blogalia.com/rdf.xml
 http://www.gp-field-guide.org.uk/feeds/posts/default
-http://jmlr.csail.mit.edu/jmlr.xml
 http://undirectedgrad.blogspot.com/feeds/posts/default
 http://feeds.feedburner.com/igvita
 http://alexandervalet.com/blog/feed
@@ -70,7 +68,6 @@ http://feeds.infosthetics.com/infosthetics
 http://weblog.fortnow.com/rss.xml
 http://www.zacharyburt.com/feed/
 http://researchonsearch.blogspot.com/feeds/posts/default
-http://ieeexplore.ieee.org/rss/TOC34.XML
 http://mloss.org/community/blog/rss/latest/
 http://factorgrad.blogspot.com/feeds/posts/default
 http://feeds.feedburner.com/20bits
@@ -206,7 +203,6 @@ http://feeds.feedburner.com/SematextBlog
 http://www.arsmathematica.net/feed/
 http://computationallegalstudies.com/feed/
 http://ml.typepad.com/machine_learning_thoughts/atom.xml
-http://feeds.feedburner.com/kdnuggets-data-mining-analytics
 http://abbottanalytics.blogspot.com/feeds/posts/default
 http://feeds.feedburner.com/autrasy-blog
 http://yyue.blogspot.com/feeds/posts/default
