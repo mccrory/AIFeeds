@@ -4,13 +4,13 @@ require 'open-uri'
 require 'timeout'
 require 'thread'
 
-TIMEOUT=15 # socket timeout in seconds
+RSS_TIMEOUT=15 # socket timeout in seconds
 THREADS=8 # number of threads for IO workers
 
 # parse a single feed
 def parse_feed(source)
   begin
-    Timeout::timeout(TIMEOUT) do
+    Timeout::timeout(RSS_TIMEOUT) do
       # open stream
       stream = nil
       begin
