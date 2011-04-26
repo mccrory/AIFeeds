@@ -4,14 +4,14 @@ require 'uri'
 require 'json'
 require 'timeout'
 
-TIMEOUT = 5
+JSON_TIMEOUT = 5
 
 # download a url
 def download_json(address)
   response = nil
   # http socket work
   begin
-    Timeout::timeout(TIMEOUT) do
+    Timeout::timeout(JSON_TIMEOUT) do
       begin
         # parse the address
         uri = URI.parse(address)
