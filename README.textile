@@ -15,6 +15,7 @@ h2. Getting Started
 
 # git clone git@github.com:jbrownlee/AIFeeds.git
 # gem install feed-normalizer
+# gem install json
 
 Requires Ruby 1.8.7+
 
