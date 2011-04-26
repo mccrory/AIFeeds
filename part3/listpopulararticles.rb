@@ -48,11 +48,11 @@ def articlelist_html(articles)
   b << "<p>Visit the project at <a href='https://github.com/jbrownlee/AIFeeds'>AIFeeds</a>.</p>\n"  
   # popular
   articles.sort!{|x,y| y[:score]<=>x[:score]} # descending
-  b << "<li>\n"
+  b << "<ul>\n"
   articles.each do |a| 
     b << article_html(a[:source], a[:feed], a[:article], a[:score])
   end
-  b << "<li>\n"  
+  b << "</ul>\n"  
   # footer
   b << "\n</body></html>"
   return b
