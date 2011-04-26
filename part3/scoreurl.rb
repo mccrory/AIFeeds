@@ -10,6 +10,7 @@ require 'scorestumbleupon'
 require 'scoretwitter'
 
 SOURCES = 7
+WAIT = 2
 
 def score_url(url)
   q_out = Queue.new
@@ -23,7 +24,7 @@ def score_url(url)
   Thread.new { q_out << twitter_count_for_url(url)}
   # wait to finish 
   begin    
-    sleep(2)
+    sleep(WAIT)
     puts " >> waiting until finish scoring url (#{q_out.size}/#{SOURCES})..." if q_out.size != SOURCES 
   end while q_out.size != SOURCES  
   # sum scores
