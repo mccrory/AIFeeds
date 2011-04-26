@@ -10,7 +10,7 @@ require 'scorestumbleupon'
 require 'scoretwitter'
 
 SOURCES = 7
-WAIT = 2
+WAIT = 1
 
 def score_url(url)
   q_out = Queue.new
