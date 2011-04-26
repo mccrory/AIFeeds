@@ -7,7 +7,7 @@ This project provides sample code and data for a tutorial series that explore th
 The tutorials are as follows:
 
 * "AIFeeds Part 1: Artificial Intelligence and Machine Learning blogs":http://www.neverreadpassively.com/2011/04/aifeeds-part-1-artificial-intelligence.html on Tuesday, April 26, 2011
-* AIFeeds Part 2: Recent AI Articles
+* "AIFeeds Part 2: Recent AI Articles":http://www.neverreadpassively.com/2011/04/aifeeds-part-2-recent-ai-articles.html on Wednesday, April 27, 2011
 * AIFeeds Part 3: Intelligently filter by social impact
 * AIFeeds Part 4: Automating an AIFeed aggregator
 
