@@ -1,7 +1,6 @@
 require 'sendemail'
 require '../part3/listpopulardayarticles'
 
-
 def generate_and_send(gmail_email, gmail_password)
   # download and parse
   feeds = parse_feeds_from_file("../part2/curated_feeds.txt")
@@ -10,7 +9,7 @@ def generate_and_send(gmail_email, gmail_password)
   articles = []
   feeds.each do |object|
     list = extract_articles(object[:source], object[:feed], start_date, end_date)
-    list.each {|a| articles<<a }
+    list.each {|a| articles << a }
   end  
   # generate html
   html = articlelist_html(articles)
@@ -21,11 +20,14 @@ def generate_and_send(gmail_email, gmail_password)
 end
 
 if __FILE__ == $0
+  # params
+  if ARGV.length != 2
+  	puts "Usage: ruby dailyfeed.rb <gmail email address> <gmail password>"
+  	exit
+  end  
   # collect details
-  puts "What is your gmail email?"
-  myemail = gets.strip  
-  puts "What is your gmail password?"
-  password = gets.strip
+  myemail = ARGV[0]
+  password = ARGV[1]
   # do it
   generate_and_send(myemail, password)  
   puts "done"
