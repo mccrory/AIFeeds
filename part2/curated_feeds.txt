@@ -43,7 +43,6 @@ http://thesilog.sologen.net/?feed=rss2
 http://www.inherentuncertainty.org/feeds/posts/default
 http://behind-the-enemy-lines.blogspot.com/feeds/posts/default
 http://brainstat.blogspot.com/feeds/posts/default
-http://agbs.kyb.tuebingen.mpg.de/km/bb/syndication.php?limit=15
 http://feeds.feedburner.com/TheMendicantBug
 http://csdl.computer.org/rss/tpami.xml
 http://www.neuralmarkettrends.com/feed/
