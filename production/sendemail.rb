@@ -19,7 +19,7 @@ def build_message(subject, from_name, from_address, to_name, to_address, body, h
     message << "MIME-Version: 1.0\n"
     message << "Content-type: text/html\n"
   end
-  message << "#{body}\n"
+  message << "\n#{body}\n"
   return message
 end
 
